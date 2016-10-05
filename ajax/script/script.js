@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+	// Sets locations of form elements to variables
 	$nameText = $('#nameText');
 	$raceText = $('#raceText');
 	$strengthText = $('#strengthText');
@@ -10,7 +11,7 @@ $(document).ready(function(){
 	$charismaText = $('#charismaText');
 
 
-
+	// Process the ajax request to database.php
 	$('#addPlayer').click(function(){
 		$.post("database.php",
 			{
@@ -29,6 +30,7 @@ $(document).ready(function(){
 			});
 	})
 
+	// Time-saving button to add generic data
 	$('#autoFill').click(function(){
 		$nameText.val('derek');
 		$raceText.val('human');
@@ -42,40 +44,3 @@ $(document).ready(function(){
 
 
 })
-/*
-$(document).ready(function(){
-	$('button').click(function(){
-		$.post("database.php",
-			{
-				name: $('#nameText').value,
-				race: $('#raceText').value,
-				strength: $('#strengthText').value,
-				constitution: $('#constitutionText').value,
-				dexterity: $('#dexterityText').value,
-				intelligence: $('#intelligenceText').value,
-				wisdom: $('#wisdomText').value,
-				charisma: $('#charismaText').value,
-			},
-		    function(data, status){
-		        alert("Data: " + data + "\nStatus: " + status);
-			});
-	})
-})
-*/
-
-
-
-
-/*
-  
-// Retrieve and escape entries from form data
-$name = $mysqli->real_escape_string($_POST['name']);
-$race = $mysqli->real_escape_string($_POST['race']);
-$strength = $mysqli->real_escape_string($_POST['strength']);
-$constitution = $mysqli->real_escape_string($_POST['constitution']);
-$dexterity = $mysqli->real_escape_string($_POST['dexterity']);
-$intelligence = $mysqli->real_escape_string($_POST['intelligence']);
-$wisdom = $mysqli->real_escape_string($_POST['wisdom']);
-$charisma = $mysqli->real_escape_string($_POST['charisma']);
-
-*/

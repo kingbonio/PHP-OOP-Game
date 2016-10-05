@@ -14,7 +14,7 @@
 <div id="ajaxTarget" style="height: 200px; width: 400px; border: solid black 1px;">
 
 </div>
-<form>
+<form name='player-details'>
 	<p>Enter your player name</p>
 	<input id="nameText" type=text name="name"><br>
 

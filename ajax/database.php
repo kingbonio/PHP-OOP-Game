@@ -2,8 +2,7 @@
 
 print_r($_POST);
 
-//-----------Model
-
+//Set up the connection via mysqli
 $dbhost = "localhost";
 $dbuser = "root";
 $dbpass = "";
@@ -25,22 +24,27 @@ $intelligence = $mysqli->real_escape_string($_POST['intelligence']);
 $wisdom = $mysqli->real_escape_string($_POST['wisdom']);
 $charisma = $mysqli->real_escape_string($_POST['charisma']);
 
-// echo "<br>" . $charisma . "<br>";
 
-// Build query
+// Prepare query
 $query = $mysqli->prepare('INSERT INTO player (name, race, strength, constitution, dexterity, intelligence, wisdom, charisma) VALUES (?, ?, ?, ?, ?, ?, ?, ?)');
+// Bind variables
 $query->bind_param("ssiiiiii", $name, $race, $strength, $constitution, $dexterity, $intelligence, $wisdom, $charisma);
 
-$query2 = "SELECT * FROM player WHERE name='brendan'";
 
+// Retrieve 
+$query2 = "SELECT * FROM player WHERE playerid='00000001'";
+
+
+// Process INSERT query
 $query->execute();
 
+// Process SELECT query
 // $qry_result = mysqli_query($mysqli, $query) or die(mysqli_error($mysqli));
 
 
 
 
-
+// Kill connection
 $conn = NULL;
 
 
