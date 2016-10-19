@@ -1,6 +1,9 @@
 <?php
 
-include
+include 'models/connection.php';
+include 'controllers/monstercontroller.php';
+include 'controllers/npccontroller.php';
+include 'controllers/playercontroller.php';
 
 $model = new model;
 $action = $_POST['action'];
@@ -15,9 +18,6 @@ if ($action == 'createPlayer'){;
 } elseif ($action = 'createMonster'){
 	$monsterController->createMonster($_POST);
 }
-
-
-
 
 
 

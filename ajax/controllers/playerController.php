@@ -1,7 +1,7 @@
 <?php
 
-include "./classes/characterclass.php";
-include "./model/connection.php";
+
+include "./models/connection.php";
 
 class playerController{
 
@@ -16,6 +16,7 @@ class playerController{
 * Send playerData to model to be pushed into the database
 */
 	public function createPlayer($playerData){
+		var_dump($playerData);
 
 		$model->createPlayer($playerData);
 

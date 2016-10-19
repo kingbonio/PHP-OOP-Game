@@ -1,7 +1,7 @@
 <?php
 
-include "./classes/characterclass.php";
-include "./model/connection.php";
+
+include "./models/connection.php";
 
 class playerController{
 

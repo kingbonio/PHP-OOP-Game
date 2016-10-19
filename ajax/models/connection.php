@@ -1,5 +1,7 @@
 <?php
 
+include './views/playerviews.php';
+
 class model{
 
 	private $dbhost = "localhost";
@@ -7,6 +9,8 @@ class model{
 	private $dbpass = "";
 	private $dbname = "gametest";
 	private $conn;
+	// TODO:Something is wrong
+	private $playerView = new playerView();
 
 
 /* Creates connection to database */
@@ -63,7 +67,6 @@ class model{
 			'charisma' => $charisma
 		);
 
-		$view->showPlayer($playerDetails);
 
 	}
 
@@ -74,7 +77,11 @@ class model{
 		// Retrieve player list
 		$query2 = "SELECT * FROM player";
 
+		// TODO: Process request
+
 		$this->$conn = NULL;
+
+		$view->showPlayer($playerDetails);
 	}
 
 

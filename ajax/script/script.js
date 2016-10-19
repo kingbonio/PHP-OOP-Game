@@ -11,9 +11,9 @@ $(document).ready(function(){
 	$charismaText = $('#charismaText');
 
 
-	// Process the ajax request to database.php
+	// Pass the ajax request to routes.php
 	$('#addPlayer').click(function(){
-		$.post("database.php",
+		$.post("routes.php",
 			{
 				action: "createPlayer",
 				name: $nameText.val(),
