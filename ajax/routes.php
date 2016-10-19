@@ -1,15 +1,21 @@
 <?php
 
-$action = $_POST['action']
+include
 
-if ($action = 'createPlayer'){
-	$playerController = new playerController;
+$model = new model;
+$action = $_POST['action'];
+$playerController = new playerController($model);
+$npcController = new npcController($model);
+$monsterController = new monsterController($model);
+
+if ($action == 'createPlayer'){;
 	$playerController->createPlayer($_POST);
 } elseif ($action = 'createNPC'){
-	$playerController = new playerController;
-	$playerController->createPlayer($_POST);
+	$npcController->createNPC($_POST);
+} elseif ($action = 'createMonster'){
+	$monsterController->createMonster($_POST);
 }
-	
+
 
 
 

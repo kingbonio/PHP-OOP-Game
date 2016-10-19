@@ -6,8 +6,10 @@ class model{
 	private $dbuser = "root";
 	private $dbpass = "";
 	private $dbname = "gametest";
-
 	private $conn;
+
+
+/* Creates connection to database */
 
 	private function connect(){
 
@@ -17,8 +19,15 @@ class model{
 		}
 	}
 
+/*
+*		Cleans inbound data
+*		Creates a player entry in the database
+*		Sends data to showPlayer function in View
+*/
+
 	private function createPlayer($queryString){
 
+		// Create a connection
 		$this->connect();
 
 		// Retrieve and escape entries from form data
@@ -42,6 +51,19 @@ class model{
 		$query->execute();
 
 		$this->$conn = NULL;
+
+		// Create array of player details and send this to View to showPlayer.
+		$playerDetails = array('name' => $name,
+			'race' => $race,
+			'strength' => $strength,
+			'constitution' => $constitution,
+			'dexterity' => $dexterity,
+			'intelligence' => $intelligence,
+			'wisdom' => $wisdom,
+			'charisma' => $charisma
+		);
+
+		$view->showPlayer($playerDetails);
 
 	}
 

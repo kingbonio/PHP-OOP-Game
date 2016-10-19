@@ -1,0 +1,436 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"monster",
+				"monster1"
+			],
+			[
+				"mo",
+				"monster1"
+			],
+			[
+				"speed",
+				"speedStart"
+			],
+			[
+				"damage",
+				"damageStart"
+			],
+			[
+				"heat",
+				"healthStart"
+			],
+			[
+				"player",
+				"player1"
+			],
+			[
+				"section1",
+				"section1Blank"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 1896,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/PHPOOPs/game",
+		"/C/xampp/htdocs/PHPOOPs/game/classes"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/PHP-OOP-MVC-SQL-Example/model/products.php",
+		"/C/xampp/htdocs/phptest/README.md",
+		"/C/xampp/htdocs/phptest/model/connection.php",
+		"/C/xampp/htdocs/PHP-SQL-Bootstrap/.gitignore",
+		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/xampp/htdocs/phptest/package.json",
+		"/C/xampp/htdocs/CromwellToolsTest/view/view.php",
+		"/C/xampp/htdocs/CromwellToolsTest/model/model.php",
+		"/C/xampp/htdocs/CromwellToolsTest/index.php",
+		"/C/xampp/htdocs/CromwellToolsTest/scss/_home.scss",
+		"/C/xampp/htdocs/CromwellToolsTest/gruntfile.js",
+		"/C/xampp/htdocs/barbaryhill.dev/gruntfile.js",
+		"/C/xampp/htdocs/dev.bg.cmbrochure/gulpfile.js",
+		"/C/xampp/htdocs/CromwellToolsTest/scss/styles.scss",
+		"/C/xampp/htdocs/CromwellToolsTest/gulpfile.js",
+		"/C/xampp/htdocs/dev.bg.cmbrochure/scss/style.scss",
+		"/C/xampp/htdocs/dev.bg.cmbrochure/scss/raw-style.scss",
+		"/C/xampp/htdocs/CromwellToolsTest/_scss/styles.scss",
+		"/C/xampp/htdocs/grunt-email-workflow-bg/Gruntfile.js",
+		"/C/xampp/htdocs/PHPOOPs/game/classes/dice.php",
+		"/C/xampp/htdocs/PHPOOPs/game/classes/player.php",
+		"/C/xampp/htdocs/PHPOOPs/game/classes/monster.php",
+		"/C/xampp/htdocs/PHPOOPs/game/index.php",
+		"/C/xampp/htdocs/CromwellToolsTest/package.json",
+		"/C/xampp/htdocs/PHPOOPs/tempstuff.php",
+		"/C/xampp/htdocs/PHPOOPs/site/config.php",
+		"/C/xampp/htdocs/PHPOOPs/site/classes/site.php",
+		"/C/xampp/htdocs/PHPOOPs/site/classes/page.php",
+		"/C/xampp/htdocs/PHPOOPs/index.php",
+		"/C/xampp/htdocs/PHPOOPs/game/classes/classes.php",
+		"/C/xampp/htdocs/PHPOOPs/site/footer.php",
+		"/C/xampp/htdocs/PHPOOPs/site/header.php",
+		"/C/xampp/htdocs/PHPOOPs/site/index.php",
+		"/C/xampp/htdocs/PHPOOPs/game/tempstuff.php",
+		"/C/xampp/htdocs/PHPOOPs/cards/index.php",
+		"/C/xampp/htdocs/PHPOOPs/game/index (2).php",
+		"/C/xampp/htdocs/PHPOOPs/game.php",
+		"/C/Users/ShitPiercer/AppData/Roaming/Composer/application/app/Customer.php",
+		"/C/Users/ShitPiercer/AppData/Roaming/Composer/application/app/Http/Controllers/OrderController.php",
+		"/C/Users/ShitPiercer/AppData/Roaming/Composer/application/app/Order.php",
+		"/C/Users/ShitPiercer/AppData/Roaming/Composer/application/app/Http/Controllers/CustomerController.php",
+		"/C/Users/ShitPiercer/AppData/Roaming/Composer/application/routes/web.php",
+		"/D/Webshites/PHP/Learning PHP And MySQL - Working Files/Chapter 9/config.inc.php",
+		"/C/xampp/phpMyAdmin/config.inc.php",
+		"/C/Users/ShitPiercer/AppData/Roaming/Composer/application/.env",
+		"/C/Users/ShitPiercer/AppData/Roaming/Composer/application/routes/api.php",
+		"/C/Users/ShitPiercer/AppData/Roaming/Composer/application/resources/views/mypage.blade.php",
+		"/C/Users/ShitPiercer/AppData/Roaming/Composer/application/resources/views/master.blade.php",
+		"/C/Users/ShitPiercer/AppData/Roaming/Composer/application/resources/views/welcome.blade.php",
+		"/C/Users/ShitPiercer/AppData/Roaming/Composer/application/app/User.php",
+		"/C/Users/ShitPiercer/AppData/Roaming/Composer/application/Customers.php",
+		"/D/Webshites/Fay/09-09-16/view/view.php",
+		"/D/Webshites/Fay/09-09-16/model/index.php",
+		"/D/Webshites/Fay/09-09-16/model/products.php",
+		"/C/Users/ShitPiercer/Desktop/Stuff/anoter like.asc",
+		"/C/Users/ShitPiercer/AppData/Roaming/Composer/application/app/Http/routes.php",
+		"/D/Webshites/Fay/Sample phps/sample.php",
+		"/C/Users/ShitPiercer/AppData/Roaming/Composer/application/app/Http/Kernel.php",
+		"/D/Webshites/Fay/images.php",
+		"/D/Webshites/Fay/cms.php",
+		"/C/Users/ShitPiercer/Desktop/Stuff/88DF34EE.asc",
+		"/C/xampp/htdocs/834567heg.php",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/index.php",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/view/view.php",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/model/products.php",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/php-sample.txt",
+		"/C/Users/ShitPiercer/Downloads/index/index.html",
+		"/C/Users/ShitPiercer/Desktop/anothertwice.asc",
+		"/C/Users/ShitPiercer/Desktop/another.asc",
+		"/C/Users/ShitPiercer/Desktop/anoter like.asc",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/js/elfinder.full.js",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/js/i18n/elfinder.cs.js",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/js/i18n/elfinder.es.js",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/js/i18n/elfinder.fo.js",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/js/i18n/elfinder.he.js",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/js/i18n/elfinder.hu.js",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/js/i18n/elfinder.it.js",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/js/i18n/elfinder.jp.js",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/js/i18n/elfinder.ko.js",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/js/i18n/elfinder.LANG.js",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/js/i18n/elfinder.nl.js",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/js/i18n/elfinder.no.js",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/js/i18n/elfinder.pl.js",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/js/i18n/elfinder.ro.js",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/js/i18n/elfinder.sl.js",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/js/i18n/elfinder.tr.js",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/js/i18n/elfinder.vi.js",
+		"/C/Users/ShitPiercer/Downloads/index.html",
+		"/C/Users/ShitPiercer/Downloads/index/js/index.js",
+		"/C/Users/ShitPiercer/Downloads/index/css/normalize.css",
+		"/C/Users/ShitPiercer/Downloads/index/css/style.css",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/js/elfinder.min.js",
+		"/C/Users/ShitPiercer/Desktop/88DF34EE.asc",
+		"/C/Users/ShitPiercer/Desktop/A72E19B6-2.asc",
+		"/C/Users/ShitPiercer/Desktop/A72E19B6.asc",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/index.php",
+		"/C/Users/ShitPiercer/Documents/fortehwin.gpg",
+		"/C/Users/ShitPiercer/Downloads/index2.html",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/css/style.css",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/php/connector.minimal.php",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/php/connector.php-dist",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/php/mime.types",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/php/connector.minimal - Copy.php-dist",
+		"/C/htdocs/fayelizabethharpham.dev/filemanager/php/connector.minimal - Copy.php-dist",
+		"/C/htdocs/fayelizabethharpham.dev/filemanager/php/connector.minimal.php",
+		"/C/htdocs/fayelizabethharpham.dev/filemanager/php/connector.php-dist",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/filemanager/php/elFinder.class.php",
+		"/C/xampp/htdocs/password_protect.php",
+		"/C/xampp/htdocs/fayelizabethharpham.dev/css/index.php",
+		"/C/htdocs/fayelizabethharpham.dev/css/style.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"",
+			"index.html",
+			"index2.html",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cromwell",
+			"glob",
+			";\n",
+			"();\n",
+			"section1Blank",
+			"for($x = 0; $x < $linesPerPage; $x++){",
+			".\t\"').slideDown(500);\\n\";",
+			"0.05",
+			"span id",
+			"filemanager/files/",
+			"display: none",
+			"slideUp(100)",
+			"img",
+			"loader",
+			"div",
+			"h1",
+			"feh1",
+			"introduction",
+			"menumob",
+			"loader",
+			"h1",
+			"introduction",
+			"para",
+			"introductionmob",
+			"mobileoff",
+			"mobile",
+			"h1",
+			"mobileoff",
+			"menubutton",
+			"<a ",
+			"('image', 'text/plain', 'text/csv', 'application/csv', 'application/vnd.ms-excel'),",
+			"csv",
+			"('image', 'text/plain', 'text/csv', 'application/csv'),",
+			"('image', 'text/plain', 'text/csv'),",
+			"uploadDeny",
+			"uploadAllow",
+			"'uploadAllow'   => array('image', 'text/plain')",
+			"'uploadAllow'   => array('image', 'text/plai",
+			"uploadDeny",
+			"mime",
+			"php",
+			"errUploadMime",
+			"file type",
+			"filetype",
+			"color",
+			"<li>",
+			"}\n",
+			"yellow",
+			"menubutton",
+			"font-size",
+			"img",
+			"font-size",
+			"li ",
+			"li",
+			"a{",
+			"list",
+			"contacttop",
+			"list",
+			"h1",
+			"menubutt",
+			"menu",
+			"menubutton",
+			"contact",
+			"list",
+			"dp",
+			"list",
+			"contacttitle",
+			".title",
+			"menubutton",
+			"title",
+			"bold",
+			"title",
+			"margin",
+			"title",
+			";\n",
+			"list",
+			"li",
+			"30px",
+			"menumob",
+			"contacttop"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"0.03",
+			"span class=\"letter\" id",
+			"",
+			"('image', 'text/plain', 'text/csv', 'application/csv', 'application/vnd.ms-excel', 'text/x-comma-separated-values'),",
+			"('image', 'text/plain', 'text/csv', 'application/csv', 'application/vnd.ms-excel'),",
+			"('image', 'text/plain', 'text/csv', 'application/csv'),",
+			"'uploadAllow'   => array('image', 'text/plain', 'text/csv')"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1896,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1888,
+								1888
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 743.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "game project.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

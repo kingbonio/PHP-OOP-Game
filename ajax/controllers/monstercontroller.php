@@ -5,23 +5,17 @@ include "./model/connection.php";
 
 class playerController{
 
-	private $model;
-
-	public function __construct($model){
-		$this->$model = $model;
-	}
-
-
-/*
-* Send playerData to model to be pushed into the database
-*/
 	public function createPlayer($playerData){
 
-		$model->createPlayer($playerData);
+		$player = new player($playerData);
+		$model = new model();
+		$view = new view($model);
+
+		$model->createPlayer($player);
+
 
 	}
 
-	// ???
 	public function speak($sayOption){
 
 	}
