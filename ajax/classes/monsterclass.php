@@ -4,13 +4,18 @@ Class monster{
 
 	$name;
 	$type;
+
+	public function __construct($nameGiven){
+		$this->$name = $nameGiven;
+	}
+	
 }
 
 Class tinyMonster extends monster{
 	$minHealth = 60;
 	$maxHealth = 100;
 	$xpReward = 200;
-	
+
 }
 
 Class smallMonster extends monster{
@@ -42,3 +47,5 @@ Class gargantuanMonster extends monster{
 	$maxHealth = 350;
 	$xpReward = 1800;
 }
+
+?>

@@ -1,4 +1,7 @@
 <?php
 
+class NPC extends characters{
+	
+}
 
-class NPC 
+?>

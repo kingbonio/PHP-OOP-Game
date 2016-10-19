@@ -15,6 +15,7 @@ $(document).ready(function(){
 	$('#addPlayer').click(function(){
 		$.post("database.php",
 			{
+				action: "createPlayer",
 				name: $nameText.val(),
 				race: $raceText.val(),
 				strength: $strengthText.val(),
