@@ -18,7 +18,17 @@ class playerController{
 	public function createPlayer($playerData){
 		var_dump($playerData);
 
-		$model->createPlayer($playerData);
+		$playerDataArray = array('name' => $_POST['name'],
+															'race' => $_POST['race'],
+															'strength' => $_POST['strength'],
+															'constitution' => $_POST['constitution'],
+															'dexterity' => $_POST['dexterity'],
+															'intelligence' => $_POST['intelligence'],
+															'wisdom' => $_POST['wisdom'],
+															'charisma' => $_POST['charisma'],);
+
+
+		$model->createPlayer($playerDataArray);
 
 	}
 

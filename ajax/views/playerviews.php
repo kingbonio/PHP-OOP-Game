@@ -8,7 +8,9 @@ class playerView{
     $this->model = $model;
   }
 
-/* Prints $html to page */
+/*
+Prints $html to page
+*/
   private function output($html){
     echo $html;
   }

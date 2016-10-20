@@ -10,7 +10,6 @@ class model{
 	private $dbname = "gametest";
 	private $conn;
 	// TODO:Something is wrong
-	private $playerView = new playerView();
 
 
 /* Creates connection to database */
@@ -23,49 +22,63 @@ class model{
 		}
 	}
 
+
 /*
+*		Connects to database
 *		Cleans inbound data
 *		Creates a player entry in the database
 *		Sends data to showPlayer function in View
 */
 
-	private function createPlayer($queryString){
+	private function createPlayer($playerDataArray){
+
+		// Create view object to pass output into
+		$playerView = new playerView();
 
 		// Create a connection
 		$this->connect();
 
-		// Retrieve and escape entries from form data
-		$name = $mysqli->real_escape_string($_POST['name']);
-		$race = $mysqli->real_escape_string($_POST['race']);
-		$strength = $mysqli->real_escape_string($_POST['strength']);
-		$constitution = $mysqli->real_escape_string($_POST['constitution']);
-		$dexterity = $mysqli->real_escape_string($_POST['dexterity']);
-		$intelligence = $mysqli->real_escape_string($_POST['intelligence']);
-		$wisdom = $mysqli->real_escape_string($_POST['wisdom']);
-		$charisma = $mysqli->real_escape_string($_POST['charisma']);
-
+		// Escape entries from inbound data
+		$cleanPlayerData = array_map('mysqli_real_escape_string', $playerDataArray);
 
 		// Prepare query
 		$query = $conn->prepare('INSERT INTO player (name, race, strength, constitution, dexterity, intelligence, wisdom, charisma) VALUES (?, ?, ?, ?, ?, ?, ?, ?)');
 		// Bind variables
-		$query->bind_param("ssiiiiii", $name, $race, $strength, $constitution, $dexterity, $intelligence, $wisdom, $charisma);
+		$query->bind_param("ssiiiiii",
+		 										$cleanPlayerData['name'],
+												$cleanPlayerData['race'],
+												$cleanPlayerData['strength'],
+												$cleanPlayerData['constitution'],
+												$cleanPlayerData['dexterity'],
+												$cleanPlayerData['intelligence'],
+												$cleanPlayerData['wisdom'],
+												$cleanPlayerData['charisma']
+											);
 
 
 		// Process INSERT query
 		$query->execute();
 
+		// Kill connection
 		$this->$conn = NULL;
 
-		// Create array of player details and send this to View to showPlayer.
+
+/*
+		// Create array of cleaned player details
 		$playerDetails = array('name' => $name,
-			'race' => $race,
-			'strength' => $strength,
-			'constitution' => $constitution,
-			'dexterity' => $dexterity,
-			'intelligence' => $intelligence,
-			'wisdom' => $wisdom,
-			'charisma' => $charisma
-		);
+														'race' => $race,
+														'strength' => $strength,
+														'constitution' => $constitution,
+														'dexterity' => $dexterity,
+														'intelligence' => $intelligence,
+														'wisdom' => $wisdom,
+														'charisma' => $charisma
+													);
+*/
+
+
+		// Send details for be printed by view
+		$playerView->showPlayer($cleanPlayerData);
 
 
 	}
