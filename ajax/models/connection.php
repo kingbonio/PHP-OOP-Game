@@ -43,6 +43,7 @@ class model{
 
 		// Prepare query
 		$query = $conn->prepare('INSERT INTO player (name, race, strength, constitution, dexterity, intelligence, wisdom, charisma) VALUES (?, ?, ?, ?, ?, ?, ?, ?)');
+
 		// Bind variables
 		$query->bind_param("ssiiiiii",
 		 										$cleanPlayerData['name'],
@@ -54,7 +55,6 @@ class model{
 												$cleanPlayerData['wisdom'],
 												$cleanPlayerData['charisma']
 											);
-
 
 		// Process INSERT query
 		$query->execute();

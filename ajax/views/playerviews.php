@@ -1,6 +1,6 @@
 <?php
 
-class playerView{
+class playerView2{
 
   private $model;
 
